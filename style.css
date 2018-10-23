@@ -1,0 +1,282 @@
+*{
+	padding:0; margin:0;
+}
+body
+{
+	background-color: #9DC2F6;
+}
+h1{
+	margin:0 0 0 0; text-align:  center; font-family: 'Courier New';
+}
+
+p{
+	margin:0 0 0 0; text-align:  center; font-family: 'Courier New';font-size: 20px;font-weight:700;opacity:1;
+}
+p.p1 {margin:0 0 0 0; text-align:right; font-family: 'Courier New';font-size: 20px;font-weight:700;opacity:1;}
+p.p2 {margin:0 0 0 0; text-align:left; font-family: 'Courier New';font-size: 20px;font-weight:700;opacity:1;}
+p.p3 {margin:0 0 0 0; text-align:left; font-family: 'Courier New';font-size: 15px;font-weight:700;opacity:1;}
+img {
+	width:50%;margin: 5%;
+}
+A:link { 
+    text-decoration: none; color: black;;opacity:1; /* &#1059;&#1073;&#1080;&#1088;&#1072;&#1077;&#1090; &#1087;&#1086;&#1076;&#1095;&#1077;&#1088;&#1082;&#1080;&#1074;&#1072;&#1085;&#1080;&#1077; &#1076;&#1083;&#1103; &#1089;&#1089;&#1099;&#1083;&#1086;&#1082; */
+   } 
+A:visited { text-decoration: none; color: black;opacity:1; } 
+A:active { text-decoration: none; color: black;;opacity:1;}
+A:hover {
+    text-decoration: underline; /* &#1044;&#1077;&#1083;&#1072;&#1077;&#1090; &#1089;&#1089;&#1099;&#1083;&#1082;&#1091; &#1087;&#1086;&#1076;&#1095;&#1077;&#1088;&#1082;&#1085;&#1091;&#1090;&#1086;&#1081; &#1087;&#1088;&#1080; &#1085;&#1072;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1080; &#1085;&#1072; &#1085;&#1077;&#1077; &#1082;&#1091;&#1088;&#1089;&#1086;&#1088;&#1072; */
+    color: red; /* &#1062;&#1074;&#1077;&#1090; &#1089;&#1089;&#1099;&#1083;&#1082;&#1080; */
+   } 
+ 
+.block1{
+	float:none; width:100%; height:50%;margin: auto;
+/*background-image:url(fon1.jpg);*/
+background-repeat:no-repeat;
+}
+.block2{
+	float:none;width:30%; margin: auto;/*background-image:url(fon2.jpg);*/
+}
+.block3{
+	float:none;width:30%; margin: 0% 0% 0% 60%;/*background-image:url(fon2.jpg);*/
+}
+.block4{
+	float:left;width:100%; margin: auto;padding: 0%;  background: black;opacity:0.5;
+}
+.block5{
+	float:left;width:20%;/*background-image:url(fon2.jpg);*/
+}
+.block6{
+	float:left;width:100%; margin: auto;padding: 0%;/*background-image:url(fon2.jpg);*/
+}
+.inbox
+{
+	width:100%;
+	background-color:#F3F7FE;
+	padding-bottom:10px;
+	margin-top:30px;
+	
+}
+#aticl
+{
+	background:linear-gradient(180deg,#FFA400,#035BF1);
+}
+#aticl p
+{
+	text-align:left;
+	margin-left:30%;	
+	margin-right:30%;
+	padding-top:10px;
+	color:#FFFFFF;/*#B32865 */
+}
+#notice
+{margin-top:10px;
+	color:red;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#FFC357;
+	width:100%;
+}
+#notice p
+{
+	text-align:center;
+}
+#notice p a
+{
+   color:#035BF1;
+   text-decoration: underline;
+}
+#znak {
+	color:#FCF9F9;
+}
+#price
+{
+
+margin-left:30%;	
+margin-right:30%;
+background-color:#F3F7FE;
+color:#035BF1;
+
+}
+#price .p2 span
+{
+	float:right;
+}
+#price .p2
+{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#price h2
+{
+	padding-bottom:10px;
+	padding-top:10px;
+	text-align:center;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+
+
+
+.box,.page {
+position:fixed;
+top:0;
+left:0;
+display: block;
+width: 100%;
+height: 100%;
+overflow: hidden;
+z-index:999;
+background:rgba(15, 102, 99, 0.5);
+color:white;
+}
+.is_overlay{
+display: block;
+width: 100%;
+height: 100%;
+}
+.is_overlay video {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: 100%; height: auto; z-index: -100;
+/*background: url(Out-Camping.jpg) no-repeat;*/
+background-size: cover;
+}
+.menu1 
+{
+	display:table; float:none; width:100%;background:black;/*position:fixed*/;border-bottom: 4px  solid black;text-align:  right;
+}
+nav{padding:10px;border-radius: 4px;background-color:#ff6200}
+ul.menu2
+{
+	display:flex;margin:0; padding:0;justify-content:center;background: radial-gradient(at center center,#ff6200, #ff9500);
+}
+li.menu2
+{
+	 list-style-type: none;margin:auto;color:white;
+}
+li.menu2 a{color:white;}
+ul{
+	float:none; padding:0; list-style-type: none;  font-family: 'Courier New';font-size: 20px;font-weight:700;opacity:1;margin-left: 25px;
+}
+
+li{list-style-type:circle;}
+.po {padding-top:20px;}
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+  /* specific CSS */
+  body {
+  
+ }
+ ul.menu2
+{
+	display:flex;margin:0; padding:0;justify-content:center;flex-direction:column;
+}
+ A {text-align: center;}
+.razd{display:none}
+is_overlay{
+  display:none;
+}
+.is_overlay video {
+   display:none;
+}
+.bgvideo {
+  display:none;
+}
+.block5{
+	float:none;width:100%;
+}
+img {
+	display:none;
+}
+iframe{
+	display:none;
+}
+.block3{
+	float:none;width:100%;
+}
+.ib{
+       display:inline; margin: 0% 0% 0% 0%;
+}
+#price
+{
+margin-left:0px;	
+margin-right:0px;
+}
+#aticl p
+{
+	margin-left:0px;	
+	margin-right:0px;
+}
+}
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {border-collapse: collapse;margin: 0 auto;/*opacity:0.5;*/} 
+/* границы ячеек первого ряда таблицы */
+th {border: 1px solid black;width:auto;}
+/* границы ячеек тела таблицы */
+td {border:1px solid black;color:black;font-size:1.5em;width:auto;}
+.po 
+{
+	/*display:flex;
+	flex-direction:column;
+	align-items: center;*/
+	margin-left:30%;
+	margin-right:30%;
+}
+@media screen and (max-width: 1200px) 
+{
+	.po 
+{
+	margin-left:0;
+	margin-right:0;
+}
+}
+					

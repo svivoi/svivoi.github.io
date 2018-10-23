@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://svivoi.github.io/sitemap.xml
