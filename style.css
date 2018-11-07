@@ -18,6 +18,10 @@ p.p3 {margin:0 0 0 0; text-align:left; font-family: 'Courier New';font-size: 15p
 img {
 	width:50%;margin: 5%;
 }
+.icon
+{
+	width:40px;margin: 40px;
+}
 A:link { 
     text-decoration: none; color: black;;opacity:1; /* &#1059;&#1073;&#1080;&#1088;&#1072;&#1077;&#1090; &#1087;&#1086;&#1076;&#1095;&#1077;&#1088;&#1082;&#1080;&#1074;&#1072;&#1085;&#1080;&#1077; &#1076;&#1083;&#1103; &#1089;&#1089;&#1099;&#1083;&#1086;&#1082; */
    } 
@@ -239,6 +243,9 @@ img {
 }
 iframe{
 	display:none;
+}
+.icon{
+	display:inline;
 }
 .block3{
 	float:none;width:100%;
