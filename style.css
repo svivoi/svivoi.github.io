@@ -241,6 +241,11 @@ is_overlay{
 img {
 	display:none;
 }
+#ng {
+	
+	display:inline;
+}
+}
 iframe{
 	display:none;
 }
