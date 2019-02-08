@@ -70,10 +70,12 @@ background-repeat:no-repeat;
 #aticl p
 {
 	text-align:left;
-	margin-left:30%;	
-	margin-right:30%;
+	/*margin-left:30%;	
+	margin-right:30%;*/
 	padding-top:10px;
 	color:#FFFFFF;/*#B32865 */
+	max-width:700px;
+	margin:0 auto;
 }
 #notice
 {margin-top:10px;
@@ -112,7 +114,9 @@ color:#035BF1;
 {
 	padding-bottom:10px;
 	padding-top:10px;
-}
+	max-width:700px;
+	margin: 0 auto;
+	}
 #price h2
 {
 	padding-bottom:10px;
@@ -267,11 +271,11 @@ iframe{
 margin-left:0px;	
 margin-right:0px;
 }
-#aticl p
+/*#aticl p
 {
 	margin-left:0px;	
 	margin-right:0px;
-}
+}*/
 }
 /* внешние границы таблицы серого цвета толщиной 1px */
 table {border-collapse: collapse;margin: 0 auto;/*opacity:0.5;*/} 
