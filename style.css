@@ -96,6 +96,8 @@ background-repeat:no-repeat;
 }
 #znak {
 	color:#FCF9F9;
+	max-width:700px;
+	margin:0 auto;
 }
 #price
 {
