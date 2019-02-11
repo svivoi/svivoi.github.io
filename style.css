@@ -107,7 +107,7 @@ background-repeat:no-repeat;
 margin-left:30%;	
 margin-right:30%;
 background-color:#F3F7FE;
-color:#035BF1;
+color:#035BF1 !important;
 
 }
 #price .p2 span
@@ -120,6 +120,7 @@ color:#035BF1;
 	padding-top:10px;
 	max-width:700px;
 	margin: 0 auto;
+	color:#035BF1;
 	}
 #price h2
 {
@@ -127,7 +128,11 @@ color:#035BF1;
 	padding-top:10px;
 	text-align:center;
 }
-
+#price table
+{
+	max-width:700px;
+	margin:0 auto;
+}
 .bgvideo {
   position: fixed;
   right: 0;
@@ -287,7 +292,7 @@ table {border-collapse: collapse;margin: 0 auto;/*opacity:0.5;*/}
 /* границы ячеек первого ряда таблицы */
 th {border: 1px solid black;width:auto;}
 /* границы ячеек тела таблицы */
-td {border:1px solid black;color:black;font-size:1.5em;width:auto;}
+td {border:none;color:black;font-size:1.5em;width:auto;}
 .po 
 {
 	/*display:flex;
